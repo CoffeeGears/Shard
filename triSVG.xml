@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<svg onload="init(this)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <script  xlink:href="../../ShipShape/Vec.js"/>
+    <script  xlink:href="../Libs/keybinder.js"/>
+    <script  xlink:href="Grid.js" />
+    <script xlink:href="triSVG2.js"/>
+    <style type="text/css" >
+        <![CDATA[
+
+        svg {
+            margin:0;
+        }
+
+        .point {
+           fill: rgb(220,220,220);
+           r: 5;
+           stroke: #000;
+           stroke-width:0.2;
+        }
+
+      ]]>
+    </style>
+
+    <g id="camera" transform="translate(0,0) scale(1) rotate(0)">
+        <g id="Shapes">
+
+        </g>
+    </g>
+    <g id="hud">
+        <g id="toolbox" transform="translate(100,100) scale(1) rotate(0)">
+            <rect x="-50" y="-50" width="100" height="100" fill="rgb(255,200,200)"></rect>
+            <polygon points="-37,32 0,-32 37,32" fill="rgb(150,255,255)"></polygon>
+        </g>
+    </g>
+
+    <script type="text/javascript"><![CDATA[
+]]></script>
+</svg>
