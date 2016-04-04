@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <svg onload="init(this)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <script  xlink:href="../../ShipShape/Vec.js"/>
-    <script  xlink:href="../Libs/keybinder.js"/>
-    <script  xlink:href="Grid.js" />
+    <script  xlink:href="Libs/Vec.js"/>
+    <script  xlink:href="Libs/Grid.js"/>
     <script xlink:href="triSVG2.js"/>
     <style type="text/css" >
         <![CDATA[
